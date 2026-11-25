@@ -1,0 +1,1256 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc18684a --dep-file=MCAL/DIO/Dio.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc39xb -D__CPU_TC39XB__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc39xb -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Configurations -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\Infra -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\Infra\\\\Sfr\\\\TC39xB -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\Infra\\\\Ssw\\\\TC3xx -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\Infra\\\\Ssw\\\\TC3xx\\\\Tricore -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\Service -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\iLLD\\\\TC3xx -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Pms -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Port -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Scu -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Src -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\_PinMap\\\\TC39xB -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\MCAL -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\MCAL\\\\DIO -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\MCAL\\\\PORT -IC:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\MCAL_CONFIG -g2 -w544 -w557 -w508 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2012 -o MCAL/DIO/Dio.src ../MCAL/DIO/Dio.c"
+	.compiler_name		"ctc"
+	;source	'../MCAL/DIO/Dio.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.Dio.Dio_ReadChannel',code,cluster('Dio_ReadChannel')
+	.sect	'.text.Dio.Dio_ReadChannel'
+	.align	2
+	
+	.global	Dio_ReadChannel
+; Function Dio_ReadChannel
+.L39:
+Dio_ReadChannel:	.type	func
+	sha	d15,d4,#-8
+.L168:
+	and	d0,d15,#255
+.L120:
+	and	d8,d4,#255
+.L122:
+	mov	d15,#16
+.L169:
+	jlt.u	d8,d15,.L2
+.L170:
+	mov	d2,#0
+.L171:
+	j	.L3
+.L2:
+	mov	d4,d0
+.L119:
+	call	Port_GetBaseAddress
+.L121:
+	jne	d2,#0,.L4
+.L172:
+	mov	d2,#0
+.L123:
+	j	.L5
+.L4:
+	add	d15,d2,#36
+	mov.a	a15,d15
+	ld.w	d15,[a15]
+.L125:
+	extr.u	d15,d15,d8,#1
+.L126:
+	jeq	d15,#0,.L6
+.L173:
+	mov	d2,#1
+.L124:
+	j	.L7
+.L6:
+	mov	d2,#0
+.L127:
+	j	.L8
+.L8:
+.L7:
+.L5:
+.L3:
+	ret
+.L85:
+	
+__Dio_ReadChannel_function_end:
+	.size	Dio_ReadChannel,__Dio_ReadChannel_function_end-Dio_ReadChannel
+.L58:
+	; End of function
+	
+	.sdecl	'.text.Dio.Dio_WriteChannel',code,cluster('Dio_WriteChannel')
+	.sect	'.text.Dio.Dio_WriteChannel'
+	.align	2
+	
+	.global	Dio_WriteChannel
+; Function Dio_WriteChannel
+.L41:
+Dio_WriteChannel:	.type	func
+	mov	d8,d5
+.L130:
+	sha	d15,d4,#-8
+.L178:
+	and	d0,d15,#255
+.L131:
+	and	d9,d4,#255
+.L132:
+	mov	d15,#16
+.L179:
+	jlt.u	d9,d15,.L9
+.L180:
+	j	.L10
+.L9:
+	mov	d4,d0
+.L128:
+	call	Port_GetBaseAddress
+.L129:
+	jne	d2,#0,.L11
+.L181:
+	j	.L12
+.L11:
+	jne	d8,#1,.L13
+.L182:
+	add	d2,#4
+.L133:
+	mov.a	a15,d2
+.L183:
+	mov	d15,#1
+.L184:
+	sh	d15,d15,d9
+.L185:
+	st.w	[a15],d15
+.L186:
+	j	.L14
+.L13:
+	jne	d8,#0,.L15
+.L187:
+	add	d2,#4
+.L134:
+	mov.a	a15,d2
+.L188:
+	mov	d15,#1
+.L189:
+	add	d0,d9,#16
+.L190:
+	sh	d15,d15,d0
+.L191:
+	st.w	[a15],d15
+.L192:
+	j	.L16
+.L15:
+	j	.L17
+.L16:
+.L14:
+.L17:
+.L12:
+.L10:
+	ret
+.L93:
+	
+__Dio_WriteChannel_function_end:
+	.size	Dio_WriteChannel,__Dio_WriteChannel_function_end-Dio_WriteChannel
+.L63:
+	; End of function
+	
+	.sdecl	'.text.Dio.Dio_ReadPort',code,cluster('Dio_ReadPort')
+	.sect	'.text.Dio.Dio_ReadPort'
+	.align	2
+	
+	.global	Dio_ReadPort
+; Function Dio_ReadPort
+.L43:
+Dio_ReadPort:	.type	func
+	call	Port_GetBaseAddress
+.L135:
+	jne	d2,#0,.L18
+.L197:
+	mov	d2,#0
+.L136:
+	j	.L19
+.L18:
+	add	d15,d2,#36
+	mov.a	a15,d15
+	ld.w	d15,[a15]
+.L138:
+	extr.u	d2,d15,#0,#16
+.L137:
+	j	.L20
+.L20:
+.L19:
+	ret
+.L99:
+	
+__Dio_ReadPort_function_end:
+	.size	Dio_ReadPort,__Dio_ReadPort_function_end-Dio_ReadPort
+.L68:
+	; End of function
+	
+	.sdecl	'.text.Dio.Dio_WritePort',code,cluster('Dio_WritePort')
+	.sect	'.text.Dio.Dio_WritePort'
+	.align	2
+	
+	.global	Dio_WritePort
+; Function Dio_WritePort
+.L45:
+Dio_WritePort:	.type	func
+	mov	d15,d5
+.L140:
+	call	Port_GetBaseAddress
+.L139:
+	jne	d2,#0,.L21
+.L202:
+	j	.L22
+.L21:
+	mov.a	a15,d2
+.L141:
+	st.w	[a15],d15
+.L22:
+	ret
+.L103:
+	
+__Dio_WritePort_function_end:
+	.size	Dio_WritePort,__Dio_WritePort_function_end-Dio_WritePort
+.L73:
+	; End of function
+	
+	.sdecl	'.text.Dio.Dio_ReadChannelGroup',code,cluster('Dio_ReadChannelGroup')
+	.sect	'.text.Dio.Dio_ReadChannelGroup'
+	.align	2
+	
+	.global	Dio_ReadChannelGroup
+; Function Dio_ReadChannelGroup
+.L47:
+Dio_ReadChannelGroup:	.type	func
+	mov.aa	a15,a4
+.L143:
+	jnz.a	a15,.L23
+.L207:
+	mov	d2,#0
+.L208:
+	j	.L24
+.L23:
+	ld.hu	d15,[a15]0
+.L209:
+	jeq	d15,#0,.L25
+.L210:
+	ld.bu	d15,[a15]2
+.L211:
+	mov	d0,#16
+.L212:
+	jlt.u	d15,d0,.L26
+.L25:
+	mov	d2,#0
+.L213:
+	j	.L27
+.L26:
+	ld.bu	d4,[a15]3
+	call	Port_GetBaseAddress
+.L142:
+	jne	d2,#0,.L28
+.L214:
+	mov	d2,#0
+.L144:
+	j	.L29
+.L28:
+	add	d15,d2,#36
+	mov.a	a2,d15
+	ld.w	d0,[a2]
+.L146:
+	ld.hu	d15,[a15]0
+.L215:
+	and	d0,d15
+.L147:
+	ld.bu	d15,[a15]2
+.L216:
+	rsub	d15,#0
+	sh	d0,d0,d15
+.L148:
+	extr.u	d2,d0,#0,#16
+.L145:
+	j	.L30
+.L30:
+.L29:
+.L27:
+.L24:
+	ret
+.L107:
+	
+__Dio_ReadChannelGroup_function_end:
+	.size	Dio_ReadChannelGroup,__Dio_ReadChannelGroup_function_end-Dio_ReadChannelGroup
+.L78:
+	; End of function
+	
+	.sdecl	'.text.Dio.Dio_WriteChannelGroup',code,cluster('Dio_WriteChannelGroup')
+	.sect	'.text.Dio.Dio_WriteChannelGroup'
+	.align	2
+	
+	.global	Dio_WriteChannelGroup
+; Function Dio_WriteChannelGroup
+.L49:
+Dio_WriteChannelGroup:	.type	func
+	mov.aa	a15,a4
+.L151:
+	mov	d8,d4
+.L153:
+	jnz.a	a15,.L31
+.L221:
+	j	.L32
+.L31:
+	ld.hu	d15,[a15]0
+.L222:
+	jeq	d15,#0,.L33
+.L223:
+	ld.bu	d15,[a15]2
+.L224:
+	mov	d0,#16
+.L225:
+	jlt.u	d15,d0,.L34
+.L33:
+	j	.L35
+.L34:
+	ld.bu	d4,[a15]3
+.L150:
+	call	Port_GetBaseAddress
+.L149:
+	jne	d2,#0,.L36
+.L226:
+	j	.L37
+.L36:
+	ld.bu	d15,[a15]2
+.L227:
+	sh	d8,d8,d15
+.L154:
+	ld.hu	d15,[a15]0
+.L156:
+	and	d8,d15
+.L228:
+	mov	d15,#-1
+	xor	d15,d8
+.L229:
+	ld.hu	d0,[a15]0
+.L158:
+	and	d15,d0
+.L230:
+	add	d2,#4
+.L155:
+	mov.a	a15,d2
+.L152:
+	sh	d15,d15,#16
+.L159:
+	or	d8,d15
+.L157:
+	st.w	[a15],d8
+.L37:
+.L35:
+.L32:
+	ret
+.L112:
+	
+__Dio_WriteChannelGroup_function_end:
+	.size	Dio_WriteChannelGroup,__Dio_WriteChannelGroup_function_end-Dio_WriteChannelGroup
+.L83:
+	; End of function
+	
+	.calls	'Dio_ReadChannel','Port_GetBaseAddress'
+	.calls	'Dio_WriteChannel','Port_GetBaseAddress'
+	.calls	'Dio_ReadPort','Port_GetBaseAddress'
+	.calls	'Dio_WritePort','Port_GetBaseAddress'
+	.calls	'Dio_ReadChannelGroup','Port_GetBaseAddress'
+	.calls	'Dio_WriteChannelGroup','Port_GetBaseAddress'
+	.calls	'Dio_ReadChannel','',0
+	.calls	'Dio_WriteChannel','',0
+	.calls	'Dio_ReadPort','',0
+	.calls	'Dio_WritePort','',0
+	.calls	'Dio_ReadChannelGroup','',0
+	.extern	Port_GetBaseAddress
+	.calls	'Dio_WriteChannelGroup','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L51:
+	.word	641
+	.half	3
+	.word	.L52
+	.byte	4
+.L50:
+	.byte	1
+	.byte	'../MCAL/DIO/Dio.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Admin\\AURIX-v1.10.36-workspace\\Main_Project\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L53
+.L90:
+	.byte	2
+	.byte	'unsigned long int',0,4,7
+.L84:
+	.byte	2
+	.byte	'unsigned char',0,1,8,3
+	.byte	'Port_GetBaseAddress',0,1,55,8
+	.word	191
+	.byte	1,1,1,1,4
+	.byte	'portNumber',0,1,55,34
+	.word	212
+	.byte	0
+.L86:
+	.byte	2
+	.byte	'unsigned short int',0,2,7,5,2,12,9,4,6
+	.byte	'mask',0
+	.word	281
+	.byte	2,2,35,0,6
+	.byte	'offset',0
+	.word	212
+	.byte	1,2,35,2,6
+	.byte	'port',0
+	.word	212
+	.byte	1,2,35,3,0,7
+	.word	303
+.L108:
+	.byte	8
+	.word	353
+	.byte	9,1,8
+	.word	363
+	.byte	10
+	.byte	'__codeptr',0,3,1,1
+	.word	365
+	.byte	10
+	.byte	'uint8',0,4,108,29
+	.word	212
+	.byte	10
+	.byte	'uint16',0,4,112,29
+	.word	281
+	.byte	10
+	.byte	'uint32',0,4,116,29
+	.word	191
+	.byte	10
+	.byte	'Port_PinModeType',0,1,7,15
+	.word	212
+	.byte	11,1,15,9,1,12
+	.byte	'PORT_PIN_IN',0,0,12
+	.byte	'PORT_PIN_OUT',0,1,0,10
+	.byte	'Port_PinDirectionType',0,1,19,2
+	.word	457
+	.byte	10
+	.byte	'Dio_ChannelType',0,2,5,16
+	.word	281
+	.byte	10
+	.byte	'Dio_PortType',0,2,6,15
+	.word	212
+	.byte	10
+	.byte	'Dio_PortLevelType',0,2,7,16
+	.word	281
+	.byte	10
+	.byte	'Dio_LevelType',0,2,8,15
+	.word	212
+	.byte	10
+	.byte	'Dio_ChannelGroupType',0,2,18,3
+	.word	303
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L52:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,46,1,3,8,58,15,59,15,57,15
+	.byte	73,19,54,15,39,12,63,12,60,12,0,0,4,5,0,3,8,58,15,59,15,57,15,73,19,0,0,5,19,1,58,15,59,15,57,15,11,15
+	.byte	0,0,6,13,0,3,8,73,19,11,15,56,9,0,0,7,38,0,73,19,0,0,8,15,0,73,19,0,0,9,21,0,54,15,0,0,10,22,0,3,8,58
+	.byte	15,59,15,57,15,73,19,0,0,11,4,1,58,15,59,15,57,15,11,15,0,0,12,40,0,3,8,28,13,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L53:
+	.word	.L161-.L160
+.L160:
+	.half	3
+	.word	.L163-.L162
+.L162:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\MCAL\\\\PORT',0
+	.byte	'C:\\\\Users\\\\Admin\\\\AURIX-v1.10.36-workspace\\\\Main_Project\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Cpu\\\\Std',0
+	.byte	0
+	.byte	'Port.h',0,1,0,0
+	.byte	'..\\MCAL\\DIO\\Dio.h',0,0,0,0
+	.byte	'../MCAL/DIO/Dio.c',0,0,0,0
+	.byte	'platform_types.h',0,2,0,0,0
+.L163:
+.L161:
+	.sdecl	'.debug_info',debug,cluster('Dio_ReadChannel')
+	.sect	'.debug_info'
+.L54:
+	.word	337
+	.half	3
+	.word	.L55
+	.byte	4,1
+	.byte	'../MCAL/DIO/Dio.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Admin\\AURIX-v1.10.36-workspace\\Main_Project\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L57,.L56
+	.byte	2
+	.word	.L50
+	.byte	3
+	.byte	'Dio_ReadChannel',0,1,6,15
+	.word	.L84
+	.byte	1,1,1
+	.word	.L39,.L85,.L38
+	.byte	4
+	.byte	'ChannelId',0,1,6,48
+	.word	.L86,.L87
+	.byte	5
+	.word	.L39,.L85
+	.byte	6
+	.byte	'port',0,1,8,11
+	.word	.L84,.L88
+	.byte	6
+	.byte	'pin',0,1,9,11
+	.word	.L84,.L89
+	.byte	6
+	.byte	'base',0,1,10,12
+	.word	.L90,.L91
+	.byte	6
+	.byte	'value',0,1,11,12
+	.word	.L90,.L92
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Dio_ReadChannel')
+	.sect	'.debug_abbrev'
+.L55:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Dio_ReadChannel')
+	.sect	'.debug_line'
+.L56:
+	.word	.L165-.L164
+.L164:
+	.half	3
+	.word	.L167-.L166
+.L166:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../MCAL/DIO/Dio.c',0,0,0,0,0
+.L167:
+	.byte	5,23,7,0,5,2
+	.word	.L39
+	.byte	3,12,1,5,30,9
+	.half	.L168-.L39
+	.byte	1,5,24,9
+	.half	.L120-.L168
+	.byte	3,1,1,5,15,9
+	.half	.L122-.L120
+	.byte	3,2,1,5,5,9
+	.half	.L169-.L122
+	.byte	1,5,16,7,9
+	.half	.L170-.L169
+	.byte	3,1,1,5,9,9
+	.half	.L171-.L170
+	.byte	1,5,32,9
+	.half	.L2-.L171
+	.byte	3,2,1,5,5,9
+	.half	.L121-.L2
+	.byte	3,2,1,5,16,7,9
+	.half	.L172-.L121
+	.byte	3,1,1,5,9,9
+	.half	.L123-.L172
+	.byte	1,5,13,9
+	.half	.L4-.L123
+	.byte	3,2,1,5,23,9
+	.half	.L125-.L4
+	.byte	3,2,1,5,5,9
+	.half	.L126-.L125
+	.byte	1,5,16,7,9
+	.half	.L173-.L126
+	.byte	3,1,1,5,9,9
+	.half	.L124-.L173
+	.byte	1,5,16,9
+	.half	.L6-.L124
+	.byte	3,2,1,5,9,9
+	.half	.L127-.L6
+	.byte	1,5,1,9
+	.half	.L3-.L127
+	.byte	3,1,1,7,9
+	.half	.L58-.L3
+	.byte	0,1,1
+.L165:
+	.sdecl	'.debug_ranges',debug,cluster('Dio_ReadChannel')
+	.sect	'.debug_ranges'
+.L57:
+	.word	-1,.L39,0,.L58-.L39,0,0
+	.sdecl	'.debug_info',debug,cluster('Dio_WriteChannel')
+	.sect	'.debug_info'
+.L59:
+	.word	334
+	.half	3
+	.word	.L60
+	.byte	4,1
+	.byte	'../MCAL/DIO/Dio.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Admin\\AURIX-v1.10.36-workspace\\Main_Project\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L62,.L61
+	.byte	2
+	.word	.L50
+	.byte	3
+	.byte	'Dio_WriteChannel',0,1,32,6,1,1,1
+	.word	.L41,.L93,.L40
+	.byte	4
+	.byte	'ChannelId',0,1,32,40
+	.word	.L86,.L94
+	.byte	4
+	.byte	'Level',0,1,32,65
+	.word	.L84,.L95
+	.byte	5
+	.word	.L41,.L93
+	.byte	6
+	.byte	'port',0,1,34,10
+	.word	.L84,.L96
+	.byte	6
+	.byte	'pin',0,1,35,10
+	.word	.L84,.L97
+	.byte	6
+	.byte	'base',0,1,36,11
+	.word	.L90,.L98
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Dio_WriteChannel')
+	.sect	'.debug_abbrev'
+.L60:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Dio_WriteChannel')
+	.sect	'.debug_line'
+.L61:
+	.word	.L175-.L174
+.L174:
+	.half	3
+	.word	.L177-.L176
+.L176:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../MCAL/DIO/Dio.c',0,0,0,0,0
+.L177:
+	.byte	5,6,7,0,5,2
+	.word	.L41
+	.byte	3,31,1,5,22,9
+	.half	.L130-.L41
+	.byte	3,6,1,5,29,9
+	.half	.L178-.L130
+	.byte	1,5,23,9
+	.half	.L131-.L178
+	.byte	3,1,1,5,14,9
+	.half	.L132-.L131
+	.byte	3,2,1,5,4,9
+	.half	.L179-.L132
+	.byte	1,5,8,7,9
+	.half	.L180-.L179
+	.byte	3,2,1,5,31,9
+	.half	.L9-.L180
+	.byte	3,3,1,5,4,9
+	.half	.L129-.L9
+	.byte	3,2,1,5,8,7,9
+	.half	.L181-.L129
+	.byte	3,2,1,5,4,9
+	.half	.L11-.L181
+	.byte	3,3,1,5,8,7,9
+	.half	.L182-.L11
+	.byte	3,2,1,5,44,9
+	.half	.L183-.L182
+	.byte	1,5,47,9
+	.half	.L184-.L183
+	.byte	1,5,41,9
+	.half	.L185-.L184
+	.byte	1,5,54,9
+	.half	.L186-.L185
+	.byte	1,5,9,9
+	.half	.L13-.L186
+	.byte	3,4,1,5,8,7,9
+	.half	.L187-.L13
+	.byte	3,2,1,5,44,9
+	.half	.L188-.L187
+	.byte	1,5,55,9
+	.half	.L189-.L188
+	.byte	1,5,47,9
+	.half	.L190-.L189
+	.byte	1,5,41,9
+	.half	.L191-.L190
+	.byte	1,5,62,9
+	.half	.L192-.L191
+	.byte	1,5,8,9
+	.half	.L15-.L192
+	.byte	3,5,1,5,1,9
+	.half	.L10-.L15
+	.byte	3,5,1,7,9
+	.half	.L63-.L10
+	.byte	0,1,1
+.L175:
+	.sdecl	'.debug_ranges',debug,cluster('Dio_WriteChannel')
+	.sect	'.debug_ranges'
+.L62:
+	.word	-1,.L41,0,.L63-.L41,0,0
+	.sdecl	'.debug_info',debug,cluster('Dio_ReadPort')
+	.sect	'.debug_info'
+.L64:
+	.word	298
+	.half	3
+	.word	.L65
+	.byte	4,1
+	.byte	'../MCAL/DIO/Dio.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Admin\\AURIX-v1.10.36-workspace\\Main_Project\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L67,.L66
+	.byte	2
+	.word	.L50
+	.byte	3
+	.byte	'Dio_ReadPort',0,1,73,19
+	.word	.L86
+	.byte	1,1,1
+	.word	.L43,.L99,.L42
+	.byte	4
+	.byte	'PortId',0,1,73,46
+	.word	.L84,.L100
+	.byte	5
+	.word	.L43,.L99
+	.byte	6
+	.byte	'base',0,1,76,16
+	.word	.L90,.L101
+	.byte	6
+	.byte	'value',0,1,77,16
+	.word	.L90,.L102
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Dio_ReadPort')
+	.sect	'.debug_abbrev'
+.L65:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Dio_ReadPort')
+	.sect	'.debug_line'
+.L66:
+	.word	.L194-.L193
+.L193:
+	.half	3
+	.word	.L196-.L195
+.L195:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../MCAL/DIO/Dio.c',0,0,0,0,0
+.L196:
+	.byte	5,36,7,0,5,2
+	.word	.L43
+	.byte	3,208,0,1,5,9,9
+	.half	.L135-.L43
+	.byte	3,2,1,5,20,7,9
+	.half	.L197-.L135
+	.byte	3,1,1,5,13,9
+	.half	.L136-.L197
+	.byte	1,5,17,9
+	.half	.L18-.L136
+	.byte	3,2,1,5,16,9
+	.half	.L138-.L18
+	.byte	3,2,1,5,9,9
+	.half	.L137-.L138
+	.byte	1,5,1,9
+	.half	.L19-.L137
+	.byte	3,2,1,7,9
+	.half	.L68-.L19
+	.byte	0,1,1
+.L194:
+	.sdecl	'.debug_ranges',debug,cluster('Dio_ReadPort')
+	.sect	'.debug_ranges'
+.L67:
+	.word	-1,.L43,0,.L68-.L43,0,0
+	.sdecl	'.debug_info',debug,cluster('Dio_WritePort')
+	.sect	'.debug_info'
+.L69:
+	.word	295
+	.half	3
+	.word	.L70
+	.byte	4,1
+	.byte	'../MCAL/DIO/Dio.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Admin\\AURIX-v1.10.36-workspace\\Main_Project\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L72,.L71
+	.byte	2
+	.word	.L50
+	.byte	3
+	.byte	'Dio_WritePort',0,1,93,6,1,1,1
+	.word	.L45,.L103,.L44
+	.byte	4
+	.byte	'PortId',0,1,93,34
+	.word	.L84,.L104
+	.byte	4
+	.byte	'Level',0,1,93,60
+	.word	.L86,.L105
+	.byte	5
+	.word	.L45,.L103
+	.byte	6
+	.byte	'base',0,1,95,12
+	.word	.L90,.L106
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Dio_WritePort')
+	.sect	'.debug_abbrev'
+.L70:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Dio_WritePort')
+	.sect	'.debug_line'
+.L71:
+	.word	.L199-.L198
+.L198:
+	.half	3
+	.word	.L201-.L200
+.L200:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../MCAL/DIO/Dio.c',0,0,0,0,0
+.L201:
+	.byte	5,6,7,0,5,2
+	.word	.L45
+	.byte	3,220,0,1,5,32,9
+	.half	.L140-.L45
+	.byte	3,5,1,5,5,9
+	.half	.L139-.L140
+	.byte	3,3,1,5,9,7,9
+	.half	.L202-.L139
+	.byte	3,2,1,5,5,9
+	.half	.L21-.L202
+	.byte	3,4,1,5,39,9
+	.half	.L141-.L21
+	.byte	1,5,1,9
+	.half	.L22-.L141
+	.byte	3,1,1,7,9
+	.half	.L73-.L22
+	.byte	0,1,1
+.L199:
+	.sdecl	'.debug_ranges',debug,cluster('Dio_WritePort')
+	.sect	'.debug_ranges'
+.L72:
+	.word	-1,.L45,0,.L73-.L45,0,0
+	.sdecl	'.debug_info',debug,cluster('Dio_ReadChannelGroup')
+	.sect	'.debug_info'
+.L74:
+	.word	317
+	.half	3
+	.word	.L75
+	.byte	4,1
+	.byte	'../MCAL/DIO/Dio.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Admin\\AURIX-v1.10.36-workspace\\Main_Project\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L77,.L76
+	.byte	2
+	.word	.L50
+	.byte	3
+	.byte	'Dio_ReadChannelGroup',0,1,110,19
+	.word	.L86
+	.byte	1,1,1
+	.word	.L47,.L107,.L46
+	.byte	4
+	.byte	'ChannelGroupIdPtr',0,1,110,69
+	.word	.L108,.L109
+	.byte	5
+	.word	.L47,.L107
+	.byte	6
+	.byte	'base',0,1,112,12
+	.word	.L90,.L110
+	.byte	6
+	.byte	'value',0,1,113,12
+	.word	.L90,.L111
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Dio_ReadChannelGroup')
+	.sect	'.debug_abbrev'
+.L75:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Dio_ReadChannelGroup')
+	.sect	'.debug_line'
+.L76:
+	.word	.L204-.L203
+.L203:
+	.half	3
+	.word	.L206-.L205
+.L205:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../MCAL/DIO/Dio.c',0,0,0,0,0
+.L206:
+	.byte	5,19,7,0,5,2
+	.word	.L47
+	.byte	3,237,0,1,5,5,9
+	.half	.L143-.L47
+	.byte	3,6,1,5,16,7,9
+	.half	.L207-.L143
+	.byte	3,2,1,5,9,9
+	.half	.L208-.L207
+	.byte	1,5,27,9
+	.half	.L23-.L208
+	.byte	3,4,1,5,9,9
+	.half	.L209-.L23
+	.byte	1,5,27,7,9
+	.half	.L210-.L209
+	.byte	3,1,1,5,39,9
+	.half	.L211-.L210
+	.byte	1,5,36,9
+	.half	.L212-.L211
+	.byte	1,5,16,7,9
+	.half	.L25-.L212
+	.byte	3,2,1,5,9,9
+	.half	.L213-.L25
+	.byte	1,5,49,9
+	.half	.L26-.L213
+	.byte	3,4,1,5,5,9
+	.half	.L142-.L26
+	.byte	3,3,1,5,16,7,9
+	.half	.L214-.L142
+	.byte	3,2,1,5,9,9
+	.half	.L144-.L214
+	.byte	1,5,13,9
+	.half	.L28-.L144
+	.byte	3,4,1,5,39,9
+	.half	.L146-.L28
+	.byte	3,3,1,5,20,9
+	.half	.L215-.L146
+	.byte	1,5,33,9
+	.half	.L147-.L215
+	.byte	3,1,1,5,13,9
+	.half	.L216-.L147
+	.byte	1,5,12,9
+	.half	.L148-.L216
+	.byte	3,2,1,5,5,9
+	.half	.L145-.L148
+	.byte	1,5,1,9
+	.half	.L24-.L145
+	.byte	3,1,1,7,9
+	.half	.L78-.L24
+	.byte	0,1,1
+.L204:
+	.sdecl	'.debug_ranges',debug,cluster('Dio_ReadChannelGroup')
+	.sect	'.debug_ranges'
+.L77:
+	.word	-1,.L47,0,.L78-.L47,0,0
+	.sdecl	'.debug_info',debug,cluster('Dio_WriteChannelGroup')
+	.sect	'.debug_info'
+.L79:
+	.word	388
+	.half	3
+	.word	.L80
+	.byte	4,1
+	.byte	'../MCAL/DIO/Dio.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Admin\\AURIX-v1.10.36-workspace\\Main_Project\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L82,.L81
+	.byte	2
+	.word	.L50
+	.byte	3
+	.byte	'Dio_WriteChannelGroup',0,1,147,1,6,1,1,1
+	.word	.L49,.L112,.L48
+	.byte	4
+	.byte	'ChannelGroupIdPtr',0,1,147,1,57
+	.word	.L108,.L113
+	.byte	4
+	.byte	'Level',0,1,147,1,94
+	.word	.L86,.L114
+	.byte	5
+	.word	.L49,.L112
+	.byte	6
+	.byte	'base',0,1,149,1,12
+	.word	.L90,.L115
+	.byte	6
+	.byte	'shiftedLevel',0,1,150,1,12
+	.word	.L90,.L116
+	.byte	6
+	.byte	'setMask',0,1,151,1,12
+	.word	.L90,.L117
+	.byte	6
+	.byte	'clearMask',0,1,152,1,12
+	.word	.L90,.L118
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Dio_WriteChannelGroup')
+	.sect	'.debug_abbrev'
+.L80:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Dio_WriteChannelGroup')
+	.sect	'.debug_line'
+.L81:
+	.word	.L218-.L217
+.L217:
+	.half	3
+	.word	.L220-.L219
+.L219:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../MCAL/DIO/Dio.c',0,0,0,0,0
+.L220:
+	.byte	5,6,7,0,5,2
+	.word	.L49
+	.byte	3,146,1,1,5,5,9
+	.half	.L153-.L49
+	.byte	3,8,1,5,9,7,9
+	.half	.L221-.L153
+	.byte	3,2,1,5,27,9
+	.half	.L31-.L221
+	.byte	3,4,1,5,9,9
+	.half	.L222-.L31
+	.byte	1,5,27,7,9
+	.half	.L223-.L222
+	.byte	3,1,1,5,39,9
+	.half	.L224-.L223
+	.byte	1,5,36,9
+	.half	.L225-.L224
+	.byte	1,5,9,7,9
+	.half	.L33-.L225
+	.byte	3,2,1,5,49,9
+	.half	.L34-.L33
+	.byte	3,4,1,5,5,9
+	.half	.L149-.L34
+	.byte	3,3,1,5,9,7,9
+	.half	.L226-.L149
+	.byte	3,2,1,5,56,9
+	.half	.L36-.L226
+	.byte	3,4,1,5,36,9
+	.half	.L227-.L36
+	.byte	1,5,48,9
+	.half	.L154-.L227
+	.byte	3,1,1,5,21,9
+	.half	.L156-.L154
+	.byte	1,5,18,9
+	.half	.L228-.L156
+	.byte	3,6,1,5,44,9
+	.half	.L229-.L228
+	.byte	3,1,1,5,17,9
+	.half	.L158-.L229
+	.byte	1,5,5,9
+	.half	.L230-.L158
+	.byte	3,3,1,5,62,9
+	.half	.L152-.L230
+	.byte	1,5,49,9
+	.half	.L159-.L152
+	.byte	1,5,39,9
+	.half	.L157-.L159
+	.byte	1,5,1,9
+	.half	.L32-.L157
+	.byte	3,1,1,7,9
+	.half	.L83-.L32
+	.byte	0,1,1
+.L218:
+	.sdecl	'.debug_ranges',debug,cluster('Dio_WriteChannelGroup')
+	.sect	'.debug_ranges'
+.L82:
+	.word	-1,.L49,0,.L83-.L49,0,0
+	.sdecl	'.debug_loc',debug,cluster('Dio_ReadChannel')
+	.sect	'.debug_loc'
+.L87:
+	.word	-1,.L39,0,.L119-.L39
+	.half	1
+	.byte	84
+	.word	0,0
+.L38:
+	.word	-1,.L39,0,.L85-.L39
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L91:
+	.word	-1,.L39,.L121-.L39,.L123-.L39
+	.half	1
+	.byte	82
+	.word	.L4-.L39,.L124-.L39
+	.half	1
+	.byte	82
+	.word	.L6-.L39,.L127-.L39
+	.half	1
+	.byte	82
+	.word	0,0
+.L89:
+	.word	-1,.L39,.L122-.L39,.L85-.L39
+	.half	1
+	.byte	88
+	.word	0,0
+.L88:
+	.word	-1,.L39,.L120-.L39,.L121-.L39
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L119-.L39,.L121-.L39
+	.half	1
+	.byte	84
+	.word	0,0
+.L92:
+	.word	-1,.L39,.L125-.L39,.L126-.L39
+	.half	1
+	.byte	95
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Dio_ReadChannelGroup')
+	.sect	'.debug_loc'
+.L109:
+	.word	-1,.L47,0,.L142-.L47
+	.half	1
+	.byte	100
+	.word	.L143-.L47,.L107-.L47
+	.half	1
+	.byte	111
+	.word	0,0
+.L46:
+	.word	-1,.L47,0,.L107-.L47
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L110:
+	.word	-1,.L47,.L142-.L47,.L144-.L47
+	.half	1
+	.byte	82
+	.word	.L28-.L47,.L145-.L47
+	.half	1
+	.byte	82
+	.word	0,0
+.L111:
+	.word	-1,.L47,.L146-.L47,.L147-.L47
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L148-.L47,.L24-.L47
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Dio_ReadPort')
+	.sect	'.debug_loc'
+.L42:
+	.word	-1,.L43,0,.L99-.L43
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L100:
+	.word	-1,.L43,0,.L135-.L43
+	.half	1
+	.byte	84
+	.word	0,0
+.L101:
+	.word	-1,.L43,.L135-.L43,.L136-.L43
+	.half	1
+	.byte	82
+	.word	.L18-.L43,.L137-.L43
+	.half	1
+	.byte	82
+	.word	0,0
+.L102:
+	.word	-1,.L43,.L138-.L43,.L19-.L43
+	.half	1
+	.byte	95
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Dio_WriteChannel')
+	.sect	'.debug_loc'
+.L94:
+	.word	-1,.L41,0,.L128-.L41
+	.half	1
+	.byte	84
+	.word	0,0
+.L40:
+	.word	-1,.L41,0,.L93-.L41
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L95:
+	.word	-1,.L41,0,.L129-.L41
+	.half	1
+	.byte	85
+	.word	.L130-.L41,.L93-.L41
+	.half	1
+	.byte	88
+	.word	0,0
+.L98:
+	.word	-1,.L41,.L129-.L41,.L133-.L41
+	.half	1
+	.byte	82
+	.word	.L13-.L41,.L134-.L41
+	.half	1
+	.byte	82
+	.word	.L15-.L41,.L10-.L41
+	.half	1
+	.byte	82
+	.word	0,0
+.L97:
+	.word	-1,.L41,.L132-.L41,.L93-.L41
+	.half	1
+	.byte	89
+	.word	0,0
+.L96:
+	.word	-1,.L41,.L131-.L41,.L129-.L41
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L128-.L41,.L129-.L41
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Dio_WriteChannelGroup')
+	.sect	'.debug_loc'
+.L113:
+	.word	-1,.L49,0,.L149-.L49
+	.half	1
+	.byte	100
+	.word	.L151-.L49,.L152-.L49
+	.half	1
+	.byte	111
+	.word	0,0
+.L48:
+	.word	-1,.L49,0,.L112-.L49
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L114:
+	.word	-1,.L49,0,.L150-.L49
+	.half	1
+	.byte	84
+	.word	.L153-.L49,.L154-.L49
+	.half	1
+	.byte	88
+	.word	0,0
+.L115:
+	.word	-1,.L49,.L149-.L49,.L155-.L49
+	.half	1
+	.byte	82
+	.word	0,0
+.L118:
+	.word	-1,.L49,.L158-.L49,.L159-.L49
+	.half	1
+	.byte	95
+	.word	0,0
+.L117:
+	.word	0,0
+.L116:
+	.word	-1,.L49,.L156-.L49,.L157-.L49
+	.half	1
+	.byte	88
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Dio_WritePort')
+	.sect	'.debug_loc'
+.L44:
+	.word	-1,.L45,0,.L103-.L45
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L105:
+	.word	-1,.L45,0,.L139-.L45
+	.half	1
+	.byte	85
+	.word	.L140-.L45,.L103-.L45
+	.half	1
+	.byte	95
+	.word	0,0
+.L104:
+	.word	-1,.L45,0,.L139-.L45
+	.half	1
+	.byte	84
+	.word	0,0
+.L106:
+	.word	-1,.L45,.L139-.L45,.L103-.L45
+	.half	1
+	.byte	82
+	.word	.L141-.L45,.L22-.L45
+	.half	1
+	.byte	111
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L231:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('Dio_ReadChannel')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L231,.L39,.L85-.L39
+	.sdecl	'.debug_frame',debug,cluster('Dio_WriteChannel')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L231,.L41,.L93-.L41
+	.sdecl	'.debug_frame',debug,cluster('Dio_ReadPort')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L231,.L43,.L99-.L43
+	.sdecl	'.debug_frame',debug,cluster('Dio_WritePort')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L231,.L45,.L103-.L45
+	.sdecl	'.debug_frame',debug,cluster('Dio_ReadChannelGroup')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L231,.L47,.L107-.L47
+	.sdecl	'.debug_frame',debug,cluster('Dio_WriteChannelGroup')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L231,.L49,.L112-.L49
+	; Module end
